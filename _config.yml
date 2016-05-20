@@ -12,4 +12,4 @@ deploy:
   # branch: master
   # message: 'deployCommand test'
 admin:
-  deployCommand: './hexo-deploy'
+  deployCommand: './hexo-deploy.sh'
