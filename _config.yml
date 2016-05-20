@@ -1,0 +1,15 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# ...
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repo: git@github.com:vladpurga/hexo-admin-deploy-command.git
+  # branch: master
+  # message: 'deployCommand test'
+admin:
+  deployCommand: './hexo-deploy'
